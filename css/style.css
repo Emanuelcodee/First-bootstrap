@@ -21,10 +21,8 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-#menu ul a{
-    float: left;
+    display: flex;
+    justify-content: space-between;
 }
 
 #menu li a{
@@ -33,14 +31,14 @@ body{
     font-weight: 700;
     transition: .3s;
     text-align: center;
-    padding: 12px 80px;
+    /* padding: 12px 80px; */
     font-size: 18px;
     color: #3867d6;
 }
 #menu li a:hover{
     color: #31435a;
 }
- 
+
 #image{
     border-radius: 50%;
     border: 1px solid;
